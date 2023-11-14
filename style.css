@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: black;
+  font-family: 'Kenia', sans-serif;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+
+  border: 2px solid rgb(241, 165, 63);
+}
+
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: rgb(241, 165, 63);
+  color: white;
+  border-radius: 60px;
+  font-size: 700;
+}
+
+.main {
+  background: url(Images/mamaliga.jpg)no-repeat;
+  background-size: cover;
+  height: 70vh;
+  background-position: 10% 10%;
+  width: 100%;
+}
+
+.main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+}
+
+.btn1 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: rgb(241, 165, 63);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+
+/*** Service ***/
+.service-item {
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  transition: .5s;
+}
+
+.service-item:hover {
+  background: var(--primary);
+}
+
+.service-item * {
+  transition: .5s;
+}
+
+.service-item:hover * {
+  color: var(--light) !important;
+}
+
+.btn3{
+  height: 35px;
+  width: 30%;
+  border: none;
+  outline: none;
+  background-color: rgb(241, 165, 63);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+  
+}
